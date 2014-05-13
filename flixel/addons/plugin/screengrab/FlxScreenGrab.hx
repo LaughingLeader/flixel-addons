@@ -11,7 +11,6 @@ import flash.geom.Rectangle;
 import flash.utils.ByteArray;
 import flixel.addons.util.PNGEncoder;
 import flixel.FlxG;
-import flixel.plugin.FlxPlugin;
 
 #if flash
 import flash.net.FileReference;
@@ -23,7 +22,7 @@ import flash.net.FileReference;
  * @link http://www.photonstorm.com
  * @author Richard Davey / Photon Storm
  */
-class FlxScreenGrab extends FlxPlugin
+class FlxScreenGrab extends FlxBasic
 {
 	public static var screenshot:Bitmap;
 	
